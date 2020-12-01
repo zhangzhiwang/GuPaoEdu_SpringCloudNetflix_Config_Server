@@ -1,10 +1,10 @@
---
+---
 spring: 
  profiles: dev
 user: 
   name: zhangsan
   age: 18
---
+---
 spring: 
  profiles: prod
 user: 

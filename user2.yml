@@ -1,0 +1,16 @@
+spring: 
+ profiles: 
+  active: dev
+  
+---
+spring: 
+ profiles: dev
+user: 
+  name: zhangsan
+  age: 18
+---
+spring: 
+ profiles: prod
+user: 
+  name: lisi
+  age: 20

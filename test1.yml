@@ -1,0 +1,18 @@
+common:
+  property: aabbcc
+  
+---
+server:
+  port: 9000
+user:
+  name: lisi
+spring: 
+  profile: dev
+  
+---
+server:
+  port: 8000
+user:
+  name: zhangsan
+spring: 
+  profile: prod

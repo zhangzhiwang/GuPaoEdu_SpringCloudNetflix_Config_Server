@@ -7,7 +7,7 @@ server:
 user:
   name: lisi
 spring: 
-  profile: dev
+  profiles: dev
   
 ---
 server:
@@ -15,4 +15,4 @@ server:
 user:
   name: zhangsan
 spring: 
-  profile: prod
+  profiles: prod
